@@ -5,5 +5,21 @@
   "main": "src/index.js",
   "repository": "git@github.com:augustoscher/edge-graphql.git",
   "author": "Augusto S. Scher <augusto@jusbrasil.com.br>",
-  "engines": { "node": ">= 18" }
+  "engines": {
+    "node": ">= 16"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@apollo/gateway": "^2.0.5",
+    "@apollo/server": "^4.0.0-alpha.7",
+    "graphql": "^16.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.22.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1"
+  }
 }
