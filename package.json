@@ -1,0 +1,9 @@
+{
+  "name": "edge-graphql",
+  "version": "1.0.0",
+  "description": "One Graph Service with graphql federation example",
+  "main": "src/index.js",
+  "repository": "git@github.com:augustoscher/edge-graphql.git",
+  "author": "Augusto S. Scher <augusto@jusbrasil.com.br>",
+  "engines": { "node": ">= 18" }
+}
