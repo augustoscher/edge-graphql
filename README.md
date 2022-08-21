@@ -7,6 +7,7 @@ With Apollo Federation, we're able to implement GraphQL in a microservice archit
 Edge GraphQL super graph is composed by the following sub graphs:
 
 [Products Domain Graph Service](https://github.com/augustoscher/products-graphql-subgraph)
+
 [Orders Domain Graph Service](https://github.com/augustoscher/orders-graphql-subgraph)
 
 
