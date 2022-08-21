@@ -4,6 +4,7 @@ We're using [Apollo Federation](https://www.apollographql.com/docs/federation/) 
 With Apollo Federation, we're able to implement GraphQL in a microservice architecture. It’s designed to replace schema stitching and solve pain points such as coordination, separation of concerns, and brittle gateway code.
 
 ## Sub Graphs
+Edge GraphQL super graph is composed by the following sub graphs:
 [Products Domain Graph Service](https://github.com/augustoscher/products-graphql-subgraph)
 
 
