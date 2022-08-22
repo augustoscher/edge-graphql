@@ -16,7 +16,9 @@ Edge GraphQL super graph is composed by the following sub graphs:
 
 ## FAQ
 - How it works when subgraph schema changes in production? Supergraph needs to redeploy?
-- What happens  when a subgraph is down?  
+- What happens  when a subgraph is down?
+- Is it any performance issues?  
+A note on performance: Query Planning and Execution adds a ~10ms overhead in the worst case. This includes the compute for building the query plan, as well as the deserialization of DGS responses and the serialization of merged gateway response.
 
 ## Docs
 [GraphQL Principle](https://principledgraphql.com/integrity#1-one-graph).
