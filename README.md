@@ -14,6 +14,10 @@ Edge GraphQL super graph is composed by the following sub graphs:
 
 ## Running
 
+## FAQ
+- How it works when subgraph schema changes in production? Supergraph needs to redeploy?
+
+
 ## Docs
 [GraphQL Principle](https://principledgraphql.com/integrity#1-one-graph).
 
