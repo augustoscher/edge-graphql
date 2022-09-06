@@ -9,11 +9,11 @@ const gateway = new ApolloGateway({
     subgraphs: [
       {
         name: 'orders',
-        url: 'http://localhost:4001/graphql'
+        url: 'http://localhost:4001/graphql' // FIXME mudar para env
       },
       {
         name: 'products',
-        url: 'https://x7jn4y20pp.sse.codesandbox.io/graphql'
+        url: 'http://localhost:4002/graphql' // FIXME mudar para env
       }
     ]
   })
