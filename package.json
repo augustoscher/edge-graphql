@@ -9,12 +9,14 @@
     "node": ">= 16"
   },
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "dev": "nodemon start"
   },
   "dependencies": {
     "@apollo/gateway": "^2.0.5",
     "@apollo/server": "^4.0.0-alpha.7",
-    "graphql": "^16.6.0"
+    "graphql": "^16.6.0",
+    "nodemon": "^2.0.19"
   },
   "devDependencies": {
     "eslint": "^8.22.0",
