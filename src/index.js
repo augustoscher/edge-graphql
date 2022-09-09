@@ -5,7 +5,8 @@ const { ApolloGateway, IntrospectAndCompose } = require('@apollo/gateway')
 const {
   PORT,
   ORDERS_SUBGRAPH_URL,
-  PRODUCTS_SUBGRAPH_URL
+  PRODUCTS_SUBGRAPH_URL,
+  REVIEWS_SUBGRAPH_URL
 } = require('./config/constants')
 
 const gateway = new ApolloGateway({
@@ -22,6 +23,10 @@ const gateway = new ApolloGateway({
       {
         name: 'products',
         url: PRODUCTS_SUBGRAPH_URL
+      },
+      {
+        name: 'reviews',
+        url: REVIEWS_SUBGRAPH_URL
       }
     ]
   })
