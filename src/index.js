@@ -9,6 +9,10 @@ const {
 } = require('./config/constants')
 
 const gateway = new ApolloGateway({
+  // Notice that we used IntrospectAndCompose method to introspect subschemas.
+  // This approach is low performance and should be used only for development purpose.
+  // Consider to use either managed or manual composition for production environments:
+  // https://www.apollographql.com/docs/federation/federated-types/composition
   supergraphSdl: new IntrospectAndCompose({
     subgraphs: [
       {
