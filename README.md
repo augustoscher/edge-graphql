@@ -10,6 +10,8 @@ Edge GraphQL super graph is composed by the following sub graphs:
 
 [Orders Domain Graph Service](https://github.com/augustoscher/orders-graphql-subgraph)
 
+[Reviews Domain Graph Service](https://github.com/augustoscher/reviews-graphql-subgraph)
+
 
 
 ## Running
