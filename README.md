@@ -27,6 +27,34 @@ or
 make dev
 ```
 
+## Example
+
+This query should fetch data from all subgraphs:
+
+```gql
+query OrdersQuery {
+  orders {
+    id
+    customerId
+    total
+    items {
+      product {
+        id
+        title
+        price
+        description
+        reviews {
+          id
+          content
+        }
+      }
+      price
+      total
+    }
+  } 
+}
+```
+
 ## FAQ
 - **How it works when subgraph schema changes in production? Supergraph needs to redeploy?**
 ...
