@@ -36,5 +36,5 @@ const server = new ApolloServer({
     listen: { port: PORT }
   })
 
-  console.log(`Server ready at ${url}`)
+  console.log(`Edge GraphQL ready at ${url}`)
 })()
