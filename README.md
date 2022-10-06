@@ -13,7 +13,6 @@ Edge GraphQL super graph is composed by the following sub graphs:
 [Reviews Domain Graph Service](https://github.com/augustoscher/reviews-graphql-subgraph)
 
 
-
 ## Running
 
 Make sure that all subgraphs are running.
