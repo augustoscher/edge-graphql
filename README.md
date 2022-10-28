@@ -66,6 +66,9 @@ When supergraph is already running and subgraph crashes for some reason, any req
 A note on performance: Query Planning and Execution adds a ~10ms overhead in the worst case. This includes the compute for building the query plan, as well as the deserialization of DGS responses and the serialization of merged gateway response.
 
 - **How does it work with Relay subgraph?**
+
+- **Is there any alternative for federation?**
+Maybe [schema stitching](https://www.apollographql.com/blog/backend/graphql-schema-stitching/).
 ...
 
 ## Docs
