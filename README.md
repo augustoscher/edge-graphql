@@ -67,7 +67,7 @@ A note on performance: Query Planning and Execution adds a ~10ms overhead in the
 
 - **How does it work with Relay subgraph?**
 
-- **Is there any alternative for federation?**
+- **Is there any alternative for federation?**  
 Maybe [schema stitching](https://www.apollographql.com/blog/backend/graphql-schema-stitching/).
 ...
 
