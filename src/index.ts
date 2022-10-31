@@ -2,12 +2,12 @@ const { ApolloServer } = require('@apollo/server')
 const { startStandaloneServer } = require('@apollo/server/standalone')
 const { ApolloGateway, IntrospectAndCompose } = require('@apollo/gateway')
 
-const {
+import { 
   PORT,
   ORDERS_SUBGRAPH_URL,
   PRODUCTS_SUBGRAPH_URL,
   REVIEWS_SUBGRAPH_URL
-} = require('./config/constants')
+ } from './config/constants'
 
 const gateway = new ApolloGateway({
   // Notice that we used IntrospectAndCompose method to introspect subschemas.

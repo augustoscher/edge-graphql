@@ -6,7 +6,7 @@ const {
   REVIEWS_SUBGRAPH_URL = 'http://localhost:4003/graphql'
 } = process.env
 
-module.exports = {
+export {
   NODE_ENV,
   PORT,
   ORDERS_SUBGRAPH_URL,
