@@ -69,7 +69,6 @@ A note on performance: Query Planning and Execution adds a ~10ms overhead in the
 
 - **Is there any alternative for federation?**  
 Maybe [schema stitching](https://www.apollographql.com/blog/backend/graphql-schema-stitching/).
-...
 
 ## Docs
 [GraphQL Principle](https://principledgraphql.com/integrity#1-one-graph).
